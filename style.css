@@ -25,7 +25,8 @@ body {
 
 h1 {
     font-weight: 900;
-    background-color: rgb(5, 28, 48);
+    background-color:var(--primary-color);
+    color: #fff;
 }
 
 .container { 
@@ -40,30 +41,38 @@ button  {
     padding: 0.5rem 1rem;
     font-family: inherit;
     margin: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    outline: none;
+    border-radius: 10px;
 } 
 
 .txt-output{ 
     margin-top: 5px;
     font-weight: 900;
-    background-color: rgb(5, 28, 48);
+    background-color: var(--secondary-color);
+    color: #fff;
 }
 
 textarea {
-
+    border-radius: 10px;
     width: 60%;
     height: 10vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
 } 
 
 #output {
-    border: 1px solid black ;
+    border-radius: 10px;
     height: 10vh;
     width: 80%;
     margin: 1rem;
     padding: 1rem;
-    background-color: black;
+    background-color: var(--primary-color);
+    color: #fff;
 } 
 
 
