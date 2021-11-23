@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+} 
+
+
+:root{
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+} 
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; 
+    background-image: url(images/doge2-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+   
+}   
+
+h1 {
+    font-weight: 900;
+    background-color: rgb(5, 28, 48);
+}
+
+.container { 
+   padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+button  {
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+    margin: 5px;
+} 
+
+.txt-output{ 
+    margin-top: 5px;
+    font-weight: 900;
+    background-color: rgb(5, 28, 48);
+}
+
+textarea {
+
+    width: 60%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+} 
+
+#output {
+    border: 1px solid black ;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: black;
+} 
+
+
+
+
+
+
+
